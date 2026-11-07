@@ -1,7 +1,10 @@
-# 🏥 Nexus-V Vitalis: Agente Clínico Autónomo (EP2)
+# 🏥 Nexus-V Vitalis: Agente Clínico Autónomo 
 
 **Asignatura:** Ingeniería de Soluciones con IA (ISY0101) — Duoc UC  
 **Tecnologías:** LangGraph, LangChain, Google Gemini (`gemini-3.5-flash`), FHIR (Pydantic), FAISS  
+
+## 👥 Integrantes
+* Fernanda Lazo y Benjamin Perez
 
 ---
 
@@ -56,12 +59,9 @@ python agent_vitalis.py
 
 ---
 
-## 🧪 Escenarios de Prueba (IE7)
+## 🧪 Escenarios de Prueba
 
 * **Escenario 1 (Flujo Exitoso):** Recibe paciente `pac-001` (Marcela Soto), detecta presión arterial de $178/112\text{ mmHg}$, decide `ESCALAMIENTO_URGENTE` y registra en el EHR.
 * **Escenario 2 (Resistencia a Errores):** Recibe JSON con tipos inválidos, detiene el flujo de forma segura en el nodo de ingesta sin contaminar el registro médico.
 
 ---
-
-## 👥 Integrantes
-* Fernanda Lazo y Benjamin Perez
