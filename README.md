@@ -64,4 +64,4 @@ python agent_vitalis.py
 ---
 
 ## 👥 Integrantes
-* Integrante 1 & Integrante 2
+* Fernanda Lazo y Benjamin Perez
